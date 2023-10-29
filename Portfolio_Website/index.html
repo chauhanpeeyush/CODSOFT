@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naincy- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <header>
+        <nav>
+            <div class="left">Peeyush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey! My name is <span class="purple">Naincy </span>
+                <div>
+                    and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="me.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/frontend.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum vero laudantium nemo non
+                        possimus nobis necessitatibus quidem! Quisquam ab ipsa consectetur recusandae!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/fullstack.png" alt="">
+                    <div class="vertical-title">
+                        Full Stack Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum vero laudantium nemo non
+                        possimus nobis necessitatibus quidem! Quisquam ab ipsa consectetur recusandae!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/webdesign.png" alt="">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum vero laudantium nemo non
+                        possimus nobis necessitatibus quidem! Quisquam ab ipsa consectetur recusandae!
+                    </div>
+                </div>
+
+                <div class="work-img">
+                    <img src="img/work.png" alt="">
+                </div>
+
+        </section>
+
+        <hr>
+        <section class="ThirdSection">
+            <div class="contactus-form-container" id="contactme">
+                <div class="container">
+
+                    <h1 class="contactus-heading">Contact me</h1>
+
+                    <h3 class="contactus-sub-heading">
+                        Querry, thoughts, or just want to say hello?
+                    </h3>
+
+
+                    <div class="contactus-form-container">
+                        <form class="form" action="">
+                            <div class="formfield-container">
+                                <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+
+                                <input class="formfield" type="email" name="email" id=""
+                                    placeholder="Enter your email address" />
+
+                                <input class="formfield" type="text" name="subject" id=""
+                                    placeholder="Enter your subject" />
+
+                                <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                    placeholder="Enter your message"></textarea>
+
+                            </div>
+
+                            <div>
+                                <button type="submit" class="btn-pink" id="submit-btn">
+                                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Peeyush Chauhan</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169; peeyushportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
